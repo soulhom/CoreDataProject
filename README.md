@@ -1,0 +1,3 @@
+# CoreDataProject
+
+For learning IOS
