@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F2738F8C21599ED200BA61FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738F8B21599ED200BA61FD /* AppDelegate.swift */; };
-		F2738F8E21599ED200BA61FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738F8D21599ED200BA61FD /* ViewController.swift */; };
+		F2738F8E21599ED200BA61FD /* CompaniesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738F8D21599ED200BA61FD /* CompaniesController.swift */; };
 		F2738F9121599ED200BA61FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2738F8F21599ED200BA61FD /* Main.storyboard */; };
 		F2738F9321599ED400BA61FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2738F9221599ED400BA61FD /* Assets.xcassets */; };
 		F2738F9621599ED400BA61FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2738F9421599ED400BA61FD /* LaunchScreen.storyboard */; };
 		F2738FA121599ED400BA61FD /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FA021599ED400BA61FD /* CoreDataTests.swift */; };
 		F2738FAC21599ED400BA61FD /* CoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FAB21599ED400BA61FD /* CoreDataUITests.swift */; };
+		F2738FBA2159AEBF00BA61FD /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FB92159AEBF00BA61FD /* UIColor+theme.swift */; };
+		F2738FBC2159B37B00BA61FD /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FBB2159B37B00BA61FD /* Company.swift */; };
+		F2738FBE2159B7BB00BA61FD /* CreateCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FBD2159B7BB00BA61FD /* CreateCompanyController.swift */; };
+		F2738FE2215C28DB00BA61FD /* TrainingModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2738FE0215C28DB00BA61FD /* TrainingModel.xcdatamodeld */; };
+		F2738FE4215D821600BA61FD /* CoreDataManag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FE3215D821600BA61FD /* CoreDataManag.swift */; };
+		F2738FE6215EE30400BA61FD /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FE5215EE30400BA61FD /* CompanyCell.swift */; };
+		F2738FE9215EF56400BA61FD /* CompaniesController+CreateCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FE8215EF56400BA61FD /* CompaniesController+CreateCompany.swift */; };
+		F2738FEB215EF64800BA61FD /* CompaniesController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2738FEA215EF64800BA61FD /* CompaniesController+UITableView.swift */; };
+		F278CB932163F42800F1FE1A /* EmployeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278CB922163F42800F1FE1A /* EmployeesController.swift */; };
+		F278CB962163F8F700F1FE1A /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278CB952163F8F700F1FE1A /* UIViewController+Helper.swift */; };
+		F278CB982163FA6B00F1FE1A /* CreateEmployeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278CB972163FA6B00F1FE1A /* CreateEmployeeController.swift */; };
+		F278CB9D2166E4AD00F1FE1A /* EmployeeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278CB9C2166E4AD00F1FE1A /* EmployeeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +46,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F2738F8821599ED200BA61FD /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2738F8821599ED200BA61FD /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2738F8B21599ED200BA61FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2738F8D21599ED200BA61FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2738F8D21599ED200BA61FD /* CompaniesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesController.swift; sourceTree = "<group>"; };
 		F2738F9021599ED200BA61FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2738F9221599ED400BA61FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2738F9521599ED400BA61FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2738F9721599ED400BA61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2738F9C21599ED400BA61FD /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2738F9C21599ED400BA61FD /* CoreDataProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2738FA021599ED400BA61FD /* CoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
 		F2738FA221599ED400BA61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2738FA721599ED400BA61FD /* CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2738FA721599ED400BA61FD /* CoreDataProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2738FAB21599ED400BA61FD /* CoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUITests.swift; sourceTree = "<group>"; };
 		F2738FAD21599ED400BA61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2738FB92159AEBF00BA61FD /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		F2738FBB2159B37B00BA61FD /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F2738FBD2159B7BB00BA61FD /* CreateCompanyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyController.swift; sourceTree = "<group>"; };
+		F2738FE1215C28DB00BA61FD /* TrainingModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrainingModel.xcdatamodel; sourceTree = "<group>"; };
+		F2738FE3215D821600BA61FD /* CoreDataManag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManag.swift; sourceTree = "<group>"; };
+		F2738FE5215EE30400BA61FD /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		F2738FE8215EF56400BA61FD /* CompaniesController+CreateCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompaniesController+CreateCompany.swift"; sourceTree = "<group>"; };
+		F2738FEA215EF64800BA61FD /* CompaniesController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompaniesController+UITableView.swift"; sourceTree = "<group>"; };
+		F278CB922163F42800F1FE1A /* EmployeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesController.swift; sourceTree = "<group>"; };
+		F278CB952163F8F700F1FE1A /* UIViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		F278CB972163FA6B00F1FE1A /* CreateEmployeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmployeeController.swift; sourceTree = "<group>"; };
+		F278CB9C2166E4AD00F1FE1A /* EmployeeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +101,7 @@
 		F2738F7F21599ED200BA61FD = {
 			isa = PBXGroup;
 			children = (
-				F2738F8A21599ED200BA61FD /* CoreData */,
+				F2738F8A21599ED200BA61FD /* CoreDataProject */,
 				F2738F9F21599ED400BA61FD /* CoreDataTests */,
 				F2738FAA21599ED400BA61FD /* CoreDataUITests */,
 				F2738F8921599ED200BA61FD /* Products */,
@@ -87,24 +111,30 @@
 		F2738F8921599ED200BA61FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2738F8821599ED200BA61FD /* CoreData.app */,
-				F2738F9C21599ED400BA61FD /* CoreDataTests.xctest */,
-				F2738FA721599ED400BA61FD /* CoreDataUITests.xctest */,
+				F2738F8821599ED200BA61FD /* CoreDataProject.app */,
+				F2738F9C21599ED400BA61FD /* CoreDataProjectTests.xctest */,
+				F2738FA721599ED400BA61FD /* CoreDataProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2738F8A21599ED200BA61FD /* CoreData */ = {
+		F2738F8A21599ED200BA61FD /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				F278CB942163F8CA00F1FE1A /* Helper */,
+				F2738FE7215EE43000BA61FD /* Companies */,
 				F2738F8B21599ED200BA61FD /* AppDelegate.swift */,
-				F2738F8D21599ED200BA61FD /* ViewController.swift */,
+				F2738F8D21599ED200BA61FD /* CompaniesController.swift */,
+				F2738FBD2159B7BB00BA61FD /* CreateCompanyController.swift */,
+				F2738FB92159AEBF00BA61FD /* UIColor+theme.swift */,
+				F2738FE3215D821600BA61FD /* CoreDataManag.swift */,
 				F2738F8F21599ED200BA61FD /* Main.storyboard */,
 				F2738F9221599ED400BA61FD /* Assets.xcassets */,
 				F2738F9421599ED400BA61FD /* LaunchScreen.storyboard */,
 				F2738F9721599ED400BA61FD /* Info.plist */,
+				F2738FE0215C28DB00BA61FD /* TrainingModel.xcdatamodeld */,
 			);
-			path = CoreData;
+			path = CoreDataProject;
 			sourceTree = "<group>";
 		};
 		F2738F9F21599ED400BA61FD /* CoreDataTests */ = {
@@ -125,12 +155,42 @@
 			path = CoreDataUITests;
 			sourceTree = "<group>";
 		};
+		F2738FE7215EE43000BA61FD /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				F278CB9921643EBA00F1FE1A /* Employees */,
+				F2738FE5215EE30400BA61FD /* CompanyCell.swift */,
+				F2738FBB2159B37B00BA61FD /* Company.swift */,
+				F2738FE8215EF56400BA61FD /* CompaniesController+CreateCompany.swift */,
+				F2738FEA215EF64800BA61FD /* CompaniesController+UITableView.swift */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		F278CB942163F8CA00F1FE1A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F278CB952163F8F700F1FE1A /* UIViewController+Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F278CB9921643EBA00F1FE1A /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				F278CB922163F42800F1FE1A /* EmployeesController.swift */,
+				F278CB972163FA6B00F1FE1A /* CreateEmployeeController.swift */,
+				F278CB9C2166E4AD00F1FE1A /* EmployeeType.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2738F8721599ED200BA61FD /* CoreData */ = {
+		F2738F8721599ED200BA61FD /* CoreDataProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2738FB021599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildConfigurationList = F2738FB021599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProject" */;
 			buildPhases = (
 				F2738F8421599ED200BA61FD /* Sources */,
 				F2738F8521599ED200BA61FD /* Frameworks */,
@@ -140,14 +200,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreData;
+			name = CoreDataProject;
 			productName = CoreData;
-			productReference = F2738F8821599ED200BA61FD /* CoreData.app */;
+			productReference = F2738F8821599ED200BA61FD /* CoreDataProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2738F9B21599ED400BA61FD /* CoreDataTests */ = {
+		F2738F9B21599ED400BA61FD /* CoreDataProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2738FB321599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataTests" */;
+			buildConfigurationList = F2738FB321599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProjectTests" */;
 			buildPhases = (
 				F2738F9821599ED400BA61FD /* Sources */,
 				F2738F9921599ED400BA61FD /* Frameworks */,
@@ -158,14 +218,14 @@
 			dependencies = (
 				F2738F9E21599ED400BA61FD /* PBXTargetDependency */,
 			);
-			name = CoreDataTests;
+			name = CoreDataProjectTests;
 			productName = CoreDataTests;
-			productReference = F2738F9C21599ED400BA61FD /* CoreDataTests.xctest */;
+			productReference = F2738F9C21599ED400BA61FD /* CoreDataProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F2738FA621599ED400BA61FD /* CoreDataUITests */ = {
+		F2738FA621599ED400BA61FD /* CoreDataProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2738FB621599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataUITests" */;
+			buildConfigurationList = F2738FB621599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProjectUITests" */;
 			buildPhases = (
 				F2738FA321599ED400BA61FD /* Sources */,
 				F2738FA421599ED400BA61FD /* Frameworks */,
@@ -176,9 +236,9 @@
 			dependencies = (
 				F2738FA921599ED400BA61FD /* PBXTargetDependency */,
 			);
-			name = CoreDataUITests;
+			name = CoreDataProjectUITests;
 			productName = CoreDataUITests;
-			productReference = F2738FA721599ED400BA61FD /* CoreDataUITests.xctest */;
+			productReference = F2738FA721599ED400BA61FD /* CoreDataProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2738F8321599ED200BA61FD /* Build configuration list for PBXProject "CoreData" */;
+			buildConfigurationList = F2738F8321599ED200BA61FD /* Build configuration list for PBXProject "CoreDataProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +277,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2738F8721599ED200BA61FD /* CoreData */,
-				F2738F9B21599ED400BA61FD /* CoreDataTests */,
-				F2738FA621599ED400BA61FD /* CoreDataUITests */,
+				F2738F8721599ED200BA61FD /* CoreDataProject */,
+				F2738F9B21599ED400BA61FD /* CoreDataProjectTests */,
+				F2738FA621599ED400BA61FD /* CoreDataProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2738F8E21599ED200BA61FD /* ViewController.swift in Sources */,
+				F2738FE4215D821600BA61FD /* CoreDataManag.swift in Sources */,
+				F2738FEB215EF64800BA61FD /* CompaniesController+UITableView.swift in Sources */,
+				F2738FBA2159AEBF00BA61FD /* UIColor+theme.swift in Sources */,
+				F2738F8E21599ED200BA61FD /* CompaniesController.swift in Sources */,
+				F278CB962163F8F700F1FE1A /* UIViewController+Helper.swift in Sources */,
+				F2738FE6215EE30400BA61FD /* CompanyCell.swift in Sources */,
+				F2738FBE2159B7BB00BA61FD /* CreateCompanyController.swift in Sources */,
+				F278CB9D2166E4AD00F1FE1A /* EmployeeType.swift in Sources */,
+				F278CB982163FA6B00F1FE1A /* CreateEmployeeController.swift in Sources */,
+				F278CB932163F42800F1FE1A /* EmployeesController.swift in Sources */,
+				F2738FE9215EF56400BA61FD /* CompaniesController+CreateCompany.swift in Sources */,
+				F2738FE2215C28DB00BA61FD /* TrainingModel.xcdatamodeld in Sources */,
 				F2738F8C21599ED200BA61FD /* AppDelegate.swift in Sources */,
+				F2738FBC2159B37B00BA61FD /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		F2738F9E21599ED400BA61FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2738F8721599ED200BA61FD /* CoreData */;
+			target = F2738F8721599ED200BA61FD /* CoreDataProject */;
 			targetProxy = F2738F9D21599ED400BA61FD /* PBXContainerItemProxy */;
 		};
 		F2738FA921599ED400BA61FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2738F8721599ED200BA61FD /* CoreData */;
+			target = F2738F8721599ED200BA61FD /* CoreDataProject */;
 			targetProxy = F2738FA821599ED400BA61FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,7 +503,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreData/Info.plist;
+				DEVELOPMENT_TEAM = 6NF44RWV9T;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataProject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +521,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreData/Info.plist;
+				DEVELOPMENT_TEAM = 6NF44RWV9T;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataProject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,7 +550,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataProject.app/CoreDataProject";
 			};
 			name = Debug;
 		};
@@ -496,7 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataProject.app/CoreDataProject";
 			};
 			name = Release;
 		};
@@ -541,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2738F8321599ED200BA61FD /* Build configuration list for PBXProject "CoreData" */ = {
+		F2738F8321599ED200BA61FD /* Build configuration list for PBXProject "CoreDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2738FAE21599ED400BA61FD /* Debug */,
@@ -550,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2738FB021599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+		F2738FB021599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2738FB121599ED400BA61FD /* Debug */,
@@ -559,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2738FB321599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
+		F2738FB321599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2738FB421599ED400BA61FD /* Debug */,
@@ -568,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2738FB621599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataUITests" */ = {
+		F2738FB621599ED400BA61FD /* Build configuration list for PBXNativeTarget "CoreDataProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2738FB721599ED400BA61FD /* Debug */,
@@ -578,6 +652,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2738FE0215C28DB00BA61FD /* TrainingModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2738FE1215C28DB00BA61FD /* TrainingModel.xcdatamodel */,
+			);
+			currentVersion = F2738FE1215C28DB00BA61FD /* TrainingModel.xcdatamodel */;
+			path = TrainingModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2738F8021599ED200BA61FD /* Project object */;
 }

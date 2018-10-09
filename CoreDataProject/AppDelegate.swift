@@ -8,14 +8,40 @@
 
 import UIKit
 
+class CustomNavigatinController: UINavigationController {
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return .lightContent
+    }
+}
+
+extension UINavigationController {
+    open override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().barTintColor = UIColor.lightRed
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        let companiesViewController = CompaniesController()
+        let navController = CustomNavigatinController(rootViewController: companiesViewController)
+        window?.rootViewController = navController
+        
         return true
     }
 
